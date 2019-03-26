@@ -1,0 +1,26 @@
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.center {
+	max-width: 1252px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+.clear {
+	clear: both;
+}
+
+.clearfix::after {
+	content: '';
+	clear: both;
+	display: block;
+	height: 0;
+}
